@@ -10,34 +10,46 @@
 <body>
     <main>
         <!-- Form Biglietto -->
-        <div class="mb-50 text-center uppercase c-white">
-            <h2>Calcola il prezzo del tuo biglietto</h2>
-        </div>
-        <div class="container text-center bg-white h-250 b-round">
-            <div class="row">
-                <div class="col-xl-4">
-                    <label for="name">Nome Cognome</label>
-                    <input id="name" type="text" value="name">
-                </div>
-                <div class="col-xl-4">
-                    <label for="km">Km da percorrere</label>
-                    <input id="km" type="number" value="km">
-                </div>
-                <div class="col-xl-4">
-                    <label for="fascia">Fascia d'età</label>
-                    <select id="fascia" name="fascia" value="fascia">
-                        <option value="Minorenne">Minorenne</option>
-                        <option value="Maggiorenne">Maggiorenne</option>
-                        <option value="Over65">Over 65</option>
-                      </select>
-                </div>
+        <section id="form-biglietto">
+            <div class="mb-50 text-center uppercase c-white">
+                <h2>Calcola il prezzo del tuo biglietto</h2>
             </div>
-            <div class="row">
-                <input type="button" value="Genera" id="genera">
-                <input type="button" value="Annulla" id="annulla">
-            </div>
+            <div class="container text-center bg-white h-250 b-round">
+                <div class="row">
+                    <div class="col-xl-4">
+                        <label for="name">Nome Cognome</label>
+                        <input id="nome-cognome" type="text" >
+                    </div>
+                    <div class="col-xl-4">
+                        <label for="km">Km da percorrere</label>
+                        <input id="km" type="number" class="km">
+                    </div>
+                    <div class="col-xl-4">
+                        <label for="fascia">Fascia d'età</label>
+                        <select id="fascia" name="fascia">
+                            <option value="minorenne">Minorenne</option>
+                            <option value="maggiorenne">Maggiorenne</option>
+                            <option value="over65">Over 65</option>
+                          </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <button id="genera">Genera</button>
+                    <button id="annulla">Annulla</button>
+                </div>
+        </section>
         </div>
         <!-- /Form Biglietto -->
+        
+        <!-- Biglietto -->
+        <section id="biglietto mt-50">
+            <div id="nome-cognome" class="nome-cognome"></div>
+            <div id="offerta" class="offerta"></div>
+            <div id="carrozza" class="carrozza"></div>
+            <div id="codice-cp" class="codice-cp"></div>
+            <div id="costo" class="costo"></div>
+        </section>
+        <!-- /Biglietto -->
 
         
 
