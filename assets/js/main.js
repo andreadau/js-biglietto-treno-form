@@ -1,5 +1,5 @@
 //dichiarazione Button
-ar Genera = document.getElementById('genera');
+var Genera = document.getElementById('genera');
 var Annulla = document.getElementById('annulla');
 //button Genera
 Genera.addEventListener("click", function () {
