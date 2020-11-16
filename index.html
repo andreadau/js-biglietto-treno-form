@@ -11,43 +11,70 @@
     <main>
         <!-- Form Biglietto -->
         <section id="form-biglietto">
-            <div class="mb-50 text-center uppercase c-white">
+            <div class="mb-25 mt-25 text-center uppercase c-white">
                 <h2>Calcola il prezzo del tuo biglietto</h2>
             </div>
-            <div class="container text-center bg-white h-250 b-round">
-                <div class="row">
-                    <div class="col-xl-4">
-                        <label for="name">Nome Cognome</label>
-                        <input id="nome-cognome" type="text" >
+            <div class="container text-center bg-white h-250 b-round p-50">
+                <div class="container-small">
+                    <div class="row">
+                        <div class="col-xl-4">
+                            <label for="name">Nome Cognome</label>
+                            <input id="nome-cognome" type="text" >
+                        </div>
+                        <div class="col-xl-4 km">
+                            <label for="km">Km da percorrere</label>
+                            <input id="km" type="number">
+                        </div>
+                        <div class="col-xl-4">
+                            <label for="fascia">Fascia d'età</label>
+                            <div>
+                                <select id="fascia" name="fascia">
+                                <option value="minorenne">Minorenne</option>
+                                <option value="maggiorenne">Maggiorenne</option>
+                                <option value="over65">Over 65</option>
+                                </select>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-xl-4">
-                        <label for="km">Km da percorrere</label>
-                        <input id="km" type="number" class="km">
+                    <div class="row mt-50">
+                        <button id="genera" class="btn">Genera</button>
+                        <button id="annulla" class="btn">Annulla</button>
                     </div>
-                    <div class="col-xl-4">
-                        <label for="fascia">Fascia d'età</label>
-                        <select id="fascia" name="fascia">
-                            <option value="minorenne">Minorenne</option>
-                            <option value="maggiorenne">Maggiorenne</option>
-                            <option value="over65">Over 65</option>
-                          </select>
-                    </div>
-                </div>
-                <div class="row">
-                    <button id="genera">Genera</button>
-                    <button id="annulla">Annulla</button>
                 </div>
         </section>
         </div>
         <!-- /Form Biglietto -->
         
         <!-- Biglietto -->
-        <section id="biglietto mt-50">
-            <div id="nomecognome" class="nome-cognome"></div>
-            <div id="offerta" class="offerta"></div>
-            <div id="carrozza" class="carrozza"></div>
-            <div id="codice-cp" class="codice-cp"></div>
-            <div id="costo" class="costo"></div>
+        <div class="text-center uppercase c-white mt-25">
+            <h2>Il tuo biglietto</h2>
+        </div>
+        <section id="biglietto">
+            <div id="bigli" class="container bg-white p-50">
+                    <h3 class="uppercase pass p-10">Dettaglio Passeggeri</h3>
+                <div class="row d-flex bg-white r-bigli">
+                    <div class="col-xl-6 bg-gray uppercase">
+                        <h1 class="mb-50 p-10">Nome Passeggero</h1>
+                        <div id="nomecognome" class="nome-cognome mb-5 p-10"></div>
+                    </div>
+                    <div class="col-xl-3">
+                        <h2 class="mb-50 p-10">Sconto</h2>
+                        <div id="offerta" class="offerta mb-5 p-10"></div>
+                    </div>
+                    <div class="col-xl-3">
+                        <h2 class="mb-50 p-10">Numero Carrozza</h2>
+                        <div id="carrozza" class="carrozza mb-5 p-10"></div>
+                    </div>
+                    <div class="col-xl-3">
+                        <h2 class="mb-50 p-10">Codice Cp</h2>
+                        <div id="codice-cp" class="codice-cp mb-5 p-10"></div>
+                    </div>
+                    <div class="col-xl-3">
+                        <h2 class="mb-50 p-10">Costo Biglietto</h2>
+                        <div id="costo" class="costo mb-5 p-10"></div>
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- /Biglietto -->
 

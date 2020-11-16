@@ -1,3 +1,44 @@
 body {
-    background-color: rgb(219, 192, 208);
+    background-color: indianred;
+}
+
+#bigli {
+    justify-content: space-around;
+    visibility: hidden;
+}
+
+.row {
+    justify-content: space-around;
+}
+
+.pass {
+    padding-bottom: 20px;
+}
+
+.r-bigli {
+    border: 1px solid black;
+}
+
+.btn {
+    padding: 10px;
+    font-weight: 800;
+    color: indianred;
+    border: 1px solid indianred;
+}
+
+.nome-cognome {
+    font-size: 20px;
+}
+
+input {
+    padding: 5px;
+    border: 1px solid indianred;
+}
+select {
+    padding: 5px;
+    border: 1px solid indianred;
+}
+
+label {
+    font-size: 18px;
 }

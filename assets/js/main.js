@@ -3,6 +3,8 @@ var Genera = document.getElementById('genera');
 var Annulla = document.getElementById('annulla');
 //button Genera
 Genera.addEventListener("click", function () {
+    // Container
+    document.getElementById('bigli').style.visibility = "visible";
     // Dichiarazione variabili Form Input
     var NomeCognome, kmPercorsi, fasciaEta;
     // Selezione variabili form Input
@@ -60,7 +62,7 @@ Genera.addEventListener("click", function () {
   
 // Button Annulla
 Annulla.addEventListener("click", function () {
-    document.getElementById('biglietto mt-50').style.display = "none";
+    document.getElementById('biglietto').style.display = "none";
     // dichiarazione variabili annulla
     var NomeCognome, kmPercorsi; 
 
