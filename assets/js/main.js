@@ -40,7 +40,7 @@ Genera.addEventListener("click", function () {
     var elNome, elSconto, elCarrozza, elCodice, elCosto;
     // Dati biglietto
 
-    elNome = document.getElementById('nome-cognome');
+    elNome = document.getElementById('nomecognome');
     elSconto = document.getElementById('offerta');
     elCarrozza = document.getElementById('carrozza');
     elCodice = document.getElementById('codice-cp');
@@ -64,7 +64,7 @@ Annulla.addEventListener("click", function () {
     // dichiarazione variabili annulla
     var NomeCognome, kmPercorsi; 
 
-    var NomeCognome = document.getElementById('nome-cognome');
+    var NomeCognome = document.getElementById('nomecognome');
     var kmPercorsi = document.getElementById('km');
 
     NomeCognome.value = "";
