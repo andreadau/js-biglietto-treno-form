@@ -5,16 +5,90 @@
   border: 1px solid red;
 }
 
-/* non funziona se lo metto qui */
-/* .debug [class*="col-"] > .row {
-  padding: 5px;
-  height: 100%;
+/* Utility classes */
+.d-flex {
+  display: flex;
 }
-.debug [class*="col-"] > .row > [class*="col-"] {
-  height: 100%;
-  background: #F07F80;
-  border: 1px solid white;
-} */
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.h-100 {
+height: 100px !important;
+}
+.h-250 {
+height: 250px !important;
+}
+.h-300 {
+height: 300px !important;
+}
+.h-700 {
+height: 700px !important;
+}
+.h-400 {
+height: 400px;
+}
+.mb-0{
+margin-bottom: 0px !important;
+}
+.mb-25{
+margin-bottom: 25px !important;
+}
+.mb-50{
+margin-bottom: 50px !important;
+}
+.pb-50{
+padding-bottom: 50px !important;
+}
+.mt-150 {
+margin-top: 150px;
+}
+.mt-100 {
+margin-top: 100px;
+}
+.mt-50 {
+margin-top: 50px;
+}
+.mt-25 {
+margin-top: 25px;
+}
+.c-white {
+color: white !important;
+}
+.f-bold {
+font-weight: bold;
+}
+.ml-auto {
+margin-left: auto !important;
+}
+.mr-auto {
+margin-left: auto !important;
+}
+.m-15 {
+margin: 15px 30px 15px 0 !important;
+}
+.bg-white {
+background: white !important;
+}
+.text-center {
+text-align: center;
+}
+.text-right {
+text-align: right;
+}
+.d-block {
+display: block;
+}
+.uppercase {
+text-transform: uppercase;
+}
+.fsw-2 {
+font-size: 2.3em !important;
+color: white !important;
+}
+.b-round {
+  border-radius: 10px;
+}
+/* Utility classes */
 
 *{
   margin: 0;
